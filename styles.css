@@ -83,5 +83,14 @@ screen */
 
 /* styling for the main section of the landing page */
 .section_one{
+    /* border: 2px solid red; */
+    background-color: #f6f5f1;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.section_two {
     border: 2px solid red;
+    height: 500px;
 }
