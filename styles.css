@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #659dbd;
 }
 
@@ -26,12 +26,10 @@ img {
 /* styling for the nav */
 .header {
     padding: 3.2rem;
-
 }
 
 .nav {
     display: flex;
-
 }
 
 .nav__list {
@@ -40,7 +38,7 @@ img {
     list-style: none;
 
     align-items: center;
-    font-size: .9rem;
+    font-size: 0.9rem;
 
     display: flex;
 }
@@ -51,12 +49,12 @@ img {
 
 #nav__list--primary:hover {
     color: orange;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: #fc0 1px 0 10px;
 }
 
 .s_i_btn:hover {
     color: orange;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: #fc0 1px 0 10px;
 }
 
 .nav__link {
@@ -84,14 +82,62 @@ img {
 /* styling for the main section of the landing page */
 .hero_section_top {
     display: flex;
+
+    border: 2px solid red;
 }
 
 .hero_section_top>.top_left {
     width: 50%;
+    align-items: center;
+    text-align: center;
 }
 
 .hero_section_top>.top_right {
     width: 50%;
+}
+
+#hero_img {
+    border-radius: 15px 80px 15px 80px;
+}
+
+/* styling for the job categories section */
+
+/* styling for the general info section */
+
+/* styling for the testimonials section */
+
+/* styling for the blog and news section */
+
+/* styling for the app info section */
+.bg_white {
+    background-color: #fff;
+}
+
+.hero_section_app_info {
+    border: 2px solid red;
+    background-color: #fff;
+    display: flex;
+}
+
+.hero_section_app_info>.app_info_left {
+    width: 50%;
+}
+
+.hero_section_app_info>.app_info_right {
+    width: 50%;
+}
+
+/* styling for the footer and site map section */
+.hero_section_site_map {
+    background-color: #4b8dc6;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.hero_section_site_map>.cont {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* styling for the copyright section */
@@ -102,7 +148,8 @@ img {
     background-color: #295982;
     text-decoration: none;
 }
-.hero_section_copyright > a {
+
+.hero_section_copyright>a {
     color: orange;
     text-decoration: none;
 }
