@@ -5,17 +5,14 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #D7F0E9;
+    background-color: rgb(169, 169, 169);
 }
 
 img {
-    /* the next line of code ensures that your image 
-integrity will always stay the same on any 
-screen */
-    max-width: 100%;
+    width: 100%;
 }
 
-.container {
+.cont {
     width: 80%;
     margin: 0 auto;
     max-width: 1100px;
@@ -25,10 +22,11 @@ screen */
     display: flex;
     justify-content: space-between;
 }
+
 /* styling for the nav */
 .header {
     padding: 3.2rem;
-    
+
 }
 
 .nav {
@@ -47,14 +45,16 @@ screen */
     display: flex;
 }
 
-#nav__list--primary{
-    color:black;
+#nav__list--primary {
+    color: black;
 }
+
 #nav__list--primary:hover {
     color: orange;
     text-shadow: #FC0 1px 0 10px;
 }
-.s_i_btn:hover{
+
+.s_i_btn:hover {
     color: orange;
     text-shadow: #FC0 1px 0 10px;
 }
@@ -82,15 +82,14 @@ screen */
 }
 
 /* styling for the main section of the landing page */
-.section_one{
-    /* border: 2px solid red; */
-    background-color: #f6f5f1;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+.hero_section_top {
+    display: flex;
 }
 
-.section_two {
-    border: 2px solid red;
-    height: 500px;
+.hero_section_top>.top_left {
+    width: 50%;
+}
+
+.hero_section_top>.top_right {
+    width: 50%;
 }
