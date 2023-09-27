@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(169, 169, 169);
+    background-color: #659dbd;
 }
 
 img {
@@ -92,4 +92,17 @@ img {
 
 .hero_section_top>.top_right {
     width: 50%;
+}
+
+/* styling for the copyright section */
+.hero_section_copyright {
+    text-align: center;
+    padding: 1.5rem;
+    color: #fff;
+    background-color: #295982;
+    text-decoration: none;
+}
+.hero_section_copyright > a {
+    color: orange;
+    text-decoration: none;
 }
