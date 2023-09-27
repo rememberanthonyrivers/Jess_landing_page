@@ -114,11 +114,11 @@ img {
 }
 
 .hero_section_app_info {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: #fff;
   display: flex;
 
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .hero_section_app_info > .app_info_left {
@@ -135,15 +135,17 @@ img {
 }
 
 .app_info_right {
-  display: flex; /* Use flexbox for centering vertically */
+  display: flex;
   flex-direction: column; /* places text in a column format */
   justify-content: center;
-  align-items: center;
+  align-items: start;
+
+  /* border: 2px solid green; */
 }
 
-.app_info_right > h4 {
+#air_banner {
   color: #295982;
-  text-align: start;
+  /* border: 2px solid red; */
 }
 
 .app_info_right > h1 {
@@ -160,7 +162,7 @@ img {
   max-height: 100%;
 }
 
-.app_info_info_right_btns{
+.app_info_info_right_btns {
   display: flex;
 }
 /* styling for the footer and site map section */
