@@ -1,103 +1,103 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    background-color: #659dbd;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #659dbd;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .cont {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1100px;
 }
 
 .row {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* styling for the nav */
 .header {
-    padding: 3.2rem;
+  padding: 3.2rem;
 }
 
 .nav {
-    display: flex;
+  display: flex;
 }
 
 .nav__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
-    align-items: center;
-    font-size: 0.9rem;
+  align-items: center;
+  font-size: 0.9rem;
 
-    display: flex;
+  display: flex;
 }
 
 #nav__list--primary {
-    color: black;
+  color: black;
 }
 
 #nav__list--primary:hover {
-    color: orange;
-    text-shadow: #fc0 1px 0 10px;
+  color: orange;
+  text-shadow: #fc0 1px 0 10px;
 }
 
 .s_i_btn:hover {
-    color: orange;
-    text-shadow: #fc0 1px 0 10px;
+  color: orange;
+  text-shadow: #fc0 1px 0 10px;
 }
 
 .nav__link {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav__link--button {
-    background-color: #295982;
-    color: #fff;
-    padding: 0.25em 1em;
-    border-radius: 10em;
+  background-color: #295982;
+  color: #fff;
+  padding: 0.25em 1em;
+  border-radius: 10em;
 }
 
 .nav__link_su:hover {
-    background-color: orange;
-    color: black;
+  background-color: orange;
+  color: black;
 }
 
-.nav__item+.nav__item {
-    margin-left: 1em;
+.nav__item + .nav__item {
+  margin-left: 1em;
 }
 
 /* styling for the main section of the landing page */
 .hero_section_top {
-    display: flex;
+  display: flex;
 
-    border: 2px solid red;
+  border: 2px solid red;
 }
 
-.hero_section_top>.top_left {
-    width: 50%;
-    align-items: center;
-    text-align: center;
+.hero_section_top > .top_left {
+  width: 50%;
+  align-items: center;
+  text-align: center;
 }
 
-.hero_section_top>.top_right {
-    width: 50%;
+.hero_section_top > .top_right {
+  width: 50%;
 }
 
 #hero_img {
-    border-radius: 15px 80px 15px 80px;
+  border-radius: 15px 80px 15px 80px;
 }
 
 /* styling for the job categories section */
@@ -110,46 +110,82 @@ img {
 
 /* styling for the app info section */
 .bg_white {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .hero_section_app_info {
-    border: 2px solid red;
-    background-color: #fff;
-    display: flex;
+  border: 2px solid red;
+  background-color: #fff;
+  display: flex;
+
+  padding: 2rem;
 }
 
-.hero_section_app_info>.app_info_left {
-    width: 50%;
+.hero_section_app_info > .app_info_left {
+  width: 50%;
 }
 
-.hero_section_app_info>.app_info_right {
-    width: 50%;
+.hero_section_app_info > .app_info_right {
+  width: 50%;
 }
 
+.app_info_img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.app_info_right {
+  display: flex; /* Use flexbox for centering vertically */
+  flex-direction: column; /* places text in a column format */
+  justify-content: center;
+  align-items: center;
+}
+
+.app_info_right > h4 {
+  color: #295982;
+  text-align: start;
+}
+
+.app_info_right > h1 {
+  text-align: start;
+}
+
+.app_info_right > p {
+  color: gray;
+  text-align: start;
+}
+
+.app_info_img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.app_info_info_right_btns{
+  display: flex;
+}
 /* styling for the footer and site map section */
 .hero_section_site_map {
-    background-color: #4b8dc6;
-    color: #fff;
-    padding: 1.5rem;
+  background-color: #4b8dc6;
+  color: #fff;
+  padding: 3.125rem;
 }
 
-.hero_section_site_map>.cont {
-    /* border: 2px solid blue; */
-    display: flex;
-    justify-content: space-evenly;
+.hero_section_site_map > .cont {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
 }
 
 /* styling for the copyright section */
 .hero_section_copyright {
-    text-align: center;
-    padding: 1.5rem;
-    color: #fff;
-    background-color: #295982;
-    text-decoration: none;
+  text-align: center;
+  padding: 1.5rem;
+  color: #fff;
+  background-color: #295982;
+  text-decoration: none;
 }
 
-.hero_section_copyright>a {
-    color: orange;
-    text-decoration: none;
+.hero_section_copyright > a {
+  color: orange;
+  text-decoration: none;
 }
