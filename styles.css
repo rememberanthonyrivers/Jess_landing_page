@@ -103,13 +103,69 @@ img {
   border-radius: 15px 80px 15px 80px;
 }
 
+.top_left {
+  padding: 2rem;
+}
+
 /* styling for the job categories section */
 
 /* styling for the general info section */
 
 /* styling for the testimonials section */
+.bg_light_blue {
+  background-color: #4b8dc6;
+}
 
-/* styling for the blog and news section */
+.hero_section_testimonials {
+  padding: 3rem;
+  padding-bottom: 4.2rem;
+}
+
+.testimonials_header {
+  text-align: center;
+  padding-bottom: 2.15rem;
+}
+
+#testimonials_header_text {
+  color: #fff;
+}
+
+.testimonials_box {
+  display: flex;
+  gap: 1rem;
+
+  border: 2px solid red;
+}
+
+.testimonials_box_left,
+.testimonials_box_mid,
+.testimonials_box_right {
+  padding: 1rem;
+  border-radius: 40px;
+}
+
+.tb_name_title > img {
+  width: 50%;
+}
+
+#tb_card-imgs {
+  width: 50%;
+  border-radius: 2rem;
+}
+
+.tb_card {
+  display: flex;
+
+  gap: 2rem;
+}
+
+.name_title-box {
+  text-align: center;
+}
+
+.stars_icons {
+  display: flex;
+}
 
 /* styling for the app info section */
 .bg_white {
