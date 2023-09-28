@@ -133,8 +133,6 @@ img {
 .testimonials_box {
   display: flex;
   gap: 1rem;
-
-  border: 2px solid red;
 }
 
 .testimonials_box_left,
@@ -161,10 +159,27 @@ img {
 
 .name_title-box {
   text-align: center;
+  padding: 0.5rem;
+}
+
+#title {
+  font-weight: bold;
+}
+
+#job_title {
+  font-weight: 300;
+}
+
+#job_card_para {
+  line-height: 1.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .stars_icons {
   display: flex;
+
+  padding-left: 0.4rem;
 }
 
 /* styling for the app info section */
@@ -173,7 +188,6 @@ img {
 }
 
 .hero_section_app_info {
-  /* border: 2px solid red; */
   background-color: #fff;
   display: flex;
 
@@ -198,13 +212,10 @@ img {
   flex-direction: column; /* places text in a column format */
   justify-content: center;
   align-items: start;
-
-  /* border: 2px solid green; */
 }
 
 #air_banner {
   color: #295982;
-  /* border: 2px solid red; */
 }
 
 .app_info_right > h1 {
@@ -232,7 +243,6 @@ img {
 }
 
 .hero_section_site_map > .cont {
-  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
 }
