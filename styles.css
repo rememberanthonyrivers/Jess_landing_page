@@ -225,6 +225,7 @@ img {
 .app_info_right > p {
   color: gray;
   text-align: start;
+  line-height: 1.85rem;
 }
 
 .app_info_img {
