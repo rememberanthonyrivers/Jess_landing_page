@@ -108,6 +108,63 @@ img {
 }
 
 /* styling for the job categories section */
+.bg_white {
+  background-color: #fff;
+}
+
+.jc_box {
+  padding: 2rem;
+
+  border: 2px solid red;
+}
+
+.job_section_text_box {
+  text-align: center;
+
+  padding-top: 1.33rem;
+  padding-bottom: 1.8rem;
+
+  line-height: 2.5rem;
+}
+
+.hero_section_jobs {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+
+  gap: 3rem;
+}
+
+.job_section_top_row {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid purple;
+  gap: 1.5rem;
+  width: 100%;
+}
+.job_section_bot_row {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid purple;
+  gap: 1.5rem;
+  width: 100%;
+}
+.jobs {
+  border: 2px solid green;
+
+  text-align: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
 
 /* styling for the general info section */
 
@@ -138,7 +195,7 @@ img {
 .testimonials_box_left,
 .testimonials_box_mid,
 .testimonials_box_right {
-  padding: 1rem;
+  padding: 1.75rem;
   border-radius: 40px;
 }
 
