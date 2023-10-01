@@ -83,28 +83,80 @@ img {
 .hero_section_top {
   display: flex;
 
-  border: 2px solid red;
+  /* border: 2px solid red; */
+
+  padding: 1rem;
 }
 
-.hero_section_top > .top_left {
+.top_left {
   width: 50%;
 
   display: flex;
   flex-direction: column;
+
+  margin-top: 0;
   justify-content: center;
-  align-items: start;
+  align-items: center;
+
+  padding: 1rem;
+
+  line-height: 2.5rem;
 }
 
-.hero_section_top > .top_right {
+#hero_main_text {
+  font-size: 2.5rem;
+}
+
+.search_bar {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input_field {
+  width: 300px;
+  border: none;
+}
+
+.input_btn {
+  background-color: orange; /* orange */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  border-radius: 10px;
+}
+
+.input_btn:hover {
+  background-color: #295982;
+  color: white;
+}
+
+.popular_searches_sec {
+  display: flex;
+
+  /* border: 2px solid red; */
+  padding: 10px;
+  gap: 20px;
+}
+
+
+.top_right {
   width: 50%;
+  justify-self: right;
 }
 
 #hero_img {
   border-radius: 15px 80px 15px 80px;
-}
-
-.top_left {
-  padding: 2rem;
+  max-width: 80%;
+  float: right;
 }
 
 /* styling for the job categories section */
