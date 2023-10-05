@@ -38,6 +38,10 @@ nav {
   background-color: #fff;
 }
 
+/* spacing box */
+.spacing_box {
+  height: 4rem;
+}
 /* styling for the main section of the landing page */
 .hero_section_top {
   display: flex;
