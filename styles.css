@@ -12,7 +12,6 @@ body {
   margin: 0;
   font-family: "Libre Franklin", sans-serif;
   background-color: #fff;
-  /* color: white; */
 }
 
 img {
@@ -38,9 +37,8 @@ nav {
   background-color: #fff;
 }
 
-
 #nav_btns:hover {
-  color: #477977;
+  color: orange;
 }
 
 /* spacing box */
@@ -289,7 +287,7 @@ nav {
 }
 
 .app_info_right > p {
-  color: gray;
+  color: #295982;
   text-align: start;
   line-height: 1.85rem;
 }
@@ -304,8 +302,8 @@ nav {
 }
 /* styling for the footer and site map section */
 .hero_section_site_map {
-  background-color: #939393;
-  color: #fff;
+  background-color: #c0c0c0;
+  color: black;
   padding: 3.125rem;
 }
 
@@ -319,7 +317,7 @@ nav {
   text-align: center;
   padding: 1.5rem;
   color: #fff;
-  background-color: #494949;
+  background-color: black;
   text-decoration: none;
 }
 
