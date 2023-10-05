@@ -1,301 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Unity Hub | Home</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet" />
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="styles.css" />
-
-  <title>Unity Hub | Home</title>
-</head>
-
-<body>
-  <div class="cont row header" alt="navbar_section">
-    <a class="nav__list" href="#">
-      <img src="assets/logo.svg" alt="conquering RWD layouts" style="max-width: 100%; max-height: 100%" />
-    </a>
-    <ul class="nav nav__list">
-      <li class="nav__item">
-        <a href="#" class="nav__link" id="nav__list--primary">Neighbors In Need</a>
-      </li>
-      <li class="nav__item">
-        <a href="#" class="nav__link" id="nav__list--primary">Community Caretakers</a>
-      </li>
-    </ul>
-    <nav class="nav">
-      <ul class="nav__list nav__list--secondary">
-        <li class="nav__item">
-          <a href="#" class="nav__link s_i_btn">Sign In</a>
-        </li>
-        <li class="nav__item">
-          <a href="#" class="nav__link nav__link--button nav__link_su">Sign up</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <main>
-    <!-- main hero section once page loads -->
-    <div class="hero_section_top cont">
-      <div class="top_left">
-        <div id="hero_main_text">Find Trusted Care,<br />Right Next Door</div>
-
-        <p>
-          Discover the power of local care and community support, connecting
-          you with trusted caregivers and services right in your neighborhood
-        </p>
-
-        <div class="search_bar">
-          <form action="#">
-            <input class="input_field" type="text" placeholder="Job Title, Keywords, or Company" />
-            <button type="submit" class="input_btn"><i class="fa fa-search"></i> Find Jobs</i></button>
-          </form>
+  <body>
+    <!-- nav section -->
+    <main>
+      <nav class="nav row">
+        <div id="unique_font">Unity Hub</div>
+        <div style="display: flex; gap: 3rem">
+          <div>Sign up</div>
+          <div>Log in</div>
         </div>
+      </nav>
 
-        <div class="popular_searches_sec">
-          <div>
-            <p>Popular Searches :</p>
-          </div>
-          <div>
-            <p id="p-s-btn">Designer</p>
-          </div>
-          <div>
-            <p id="p-s-btn">Developer</p>
-          </div>
-          <div>
-            <p id="p-s-btn">Engineer</p>
-          </div>
-        </div>
-      </div>
-      <div class="top_right">
-        <img
-          src="assets/tonethecodeman_a_group_of_diverse_people_smiling_as_a_community_327f2922-0bdd-4781-bfe1-b4aed0ddd515.png"
-          alt="people in windows" id="hero_img" />
-      </div>
-    </div>
-
-    <!-- hero section two / job categories / https://www.youtube.com/watch?v=kcGj8l0ED8E&list=PL5e68lK9hEzeno7BZD9q3Ay-4OmT9LGu4&index=41 -->
-    <div class="bg_white jc_box">
-      <div class="cont job_section_text_box">
-        <h3>Popular Job categories</h3>
-        <p>2023 Jobs Live - 200 added Today</p>
-      </div>
-
-      <div class="cont hero_section_jobs">
-        <div class="job_section_top_row">
-          <div class="jobs">
-            <i class="bx bx-home-heart jc_emblem"></i>
-
-            <p>Childcare</p>
-          </div>
-          <div class="jobs">
-            <i class="bx bx-male-female jc_emblem"></i>
-
-            <p>Elderly Care</p>
-          </div>
-          <div class="jobs">
-            <i class="bx bx-building-house jc_emblem"></i>
-
-            <p>House Cleaning</p>
-          </div>
-        </div>
-        <div class="job_section_bot_row">
-          <div class="jobs">
-            <i class="bx bxs-dog jc_emblem"></i>
-
-            <p>Pet Care</p>
-          </div>
-          <div class="jobs">
-            <i class="bx bx-wrench jc_emblem"></i>
-
-            <p>Home Repair</p>
-          </div>
-          <div class="jobs">
-            <i class="bx bxs-shopping-bag jc_emblem"></i>
-
-            <p>Errands</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- hero section three / general info -->
-    <div class="cont hero_section_general_info" style="border: 2px solid blue"></div>
-
-    <!-- hero section four / testimonials  / https://www.youtube.com/watch?v=8b2mTq0Xrtw -->
-
-    <div class="bg_light_blue">
-      <div class="cont hero_section_testimonials">
-        <div class="testimonials_header">
-          <h4 id="testimonials_header_text" style="font-size: 1.45rem">
-            Testimonials
-          </h4>
-          <p id="testimonials_header_text">
-            What is our client's feedback about us
-          </p>
-        </div>
-
-        <div class="testimonials_box">
-          <div class="testimonials_box_left bg_white">
-            <div class="tb_card">
-              <img src="assets/__guySmilingIII.jpg" alt="selfie" id="tb_card-imgs" />
-              <div class="name_title-box">
-                <p id="title">Michael Santoro</p>
-                <p id="job_title">Tutor</p>
-              </div>
-            </div>
-            <div>
-              <p id="job_card_para">
-                This platform allows me to share my knowledge and help
-                students excel in their studies. Unity Hub is great for both
-                tutors and learners to connect and grow academically.
-              </p>
-            </div>
-            <div class="stars_icons">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-
-              4.6
-            </div>
-          </div>
-
-          <div class="testimonials_box_mid bg_white">
-            <div class="tb_card">
-              <img src="assets/__guySmiling.jpg" alt="selfie" id="tb_card-imgs" />
-              <div class="name_title-box">
-                <p id="title">Emanual Stern</p>
-                <p id="job_title">Cameraman</p>
-              </div>
-            </div>
-            <div>
-              <p id="job_card_para">
-                Since Unity Hub began, it has opened up exciting opportunities
-                for me as a photographer. I've captured cherished moments for
-                families and events, all while doing what I'm passionate
-                about.
-              </p>
-            </div>
-            <div class="stars_icons">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-
-              4.5
-            </div>
-          </div>
-
-          <div class="testimonials_box_right bg_white">
-            <div class="tb_card">
-              <img src="assets/__guySmilingII.jpg" alt="selfie" id="tb_card-imgs" />
-              <div class="name_title-box">
-                <p id="title">Alex Beck</p>
-                <p id="job_title">Gardener</p>
-              </div>
-            </div>
-            <div>
-              <p id="job_card_para">
-                Unity Hub has been a game-changer for my gardening business.
-                I've connected with clients who appreciate my expertise, and I
-                love helping them create beautiful outdoor spaces.
-              </p>
-            </div>
-            <div class="stars_icons">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-
-              4.9
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- hero section six / app info -->
-    <div class="bg_white">
-      <div class="cont hero_section_app_info">
-        <div class="app_info_left">
-          <img src="assets/__iphone_app_img.png" alt="iphone_img" id="app_info_img" />
-        </div>
-        <div class="app_info_right">
-          <h4 id="air_banner">Download and Enjoy</h4>
-
-          <h1>Millions of Jobs. Find one that suits you.</h1>
+      <!-- main hero section once page loads -->
+      <div class="hero_section_top cont">
+        <div class="top_left">
+          <div id="hero_main_text">Find Trusted Care,<br />Right Next Door</div>
 
           <p>
-            Service seekers typically engage in research and evaluation to
-            find the right service providers. They might look for online
-            reviews, recommendations from peers, or testimonials to ensure the
-            credibility and quality.
+            Discover the power of local care and community support, connecting
+            you with trusted caregivers and services right in your neighborhood
           </p>
 
-          <div class="app_info_info_right_btns"></div>
+          <div class="search_bar">
+            <div class="search-container">
+              <input type="text" class="search-input" placeholder="I need help with..." />
+              <input type="text" class="search-input" placeholder="Zip Code" />
+              <button class="search-button">Search</button>
+            </div>
+          </div>
+
+          <div class="popular_searches_sec">
+            <div>
+              <p>Popular Searches :</p>
+            </div>
+            <div>
+              <p id="p-s-btn">Designer</p>
+            </div>
+            <div>
+              <p id="p-s-btn">Developer</p>
+            </div>
+            <div>
+              <p id="p-s-btn">Engineer</p>
+            </div>
+          </div>
+        </div>
+        <div class="top_right">
+          <img
+            src="assets/tonethecodeman_a_group_of_diverse_people_smiling_as_a_community_327f2922-0bdd-4781-bfe1-b4aed0ddd515.png"
+            alt="people in windows"
+            id="hero_img"
+          />
         </div>
       </div>
-    </div>
 
-    <!-- hero section seven / footer & site map -->
-    <div class="hero_section_site_map">
-      <div class="cont">
-        <div class="footer_s1">
-          <h2>Unity Hub</h2>
-
-          <p>Call Us</p>
-
-          <p>+1 (973) 508 3720</p>
-
-          <p>jessicafonseca412@gmail.com</p>
+      <!-- hero section two / job categories / https://www.youtube.com/watch?v=kcGj8l0ED8E&list=PL5e68lK9hEzeno7BZD9q3Ay-4OmT9LGu4&index=41 -->
+      <div class="bg_white jc_box">
+        <div class="cont job_section_text_box">
+          <h3>Popular Job categories</h3>
+          <p>2023 Jobs Live - 200 added Today</p>
         </div>
-        <div class="footer_s2">
-          <h3>About Us</h3>
 
-          <p>About Us</p>
+        <div class="cont hero_section_jobs">
+          <div class="job_section_top_row">
+            <div class="jobs">
+              <i class="bx bx-home-heart jc_emblem"></i>
 
-          <p>Terms Page</p>
+              <p>Childcare</p>
+            </div>
+            <div class="jobs">
+              <i class="bx bx-male-female jc_emblem"></i>
 
-          <p>Contact</p>
-        </div>
-        <div class="footer_s3">
-          <h3>For Employers</h3>
+              <p>Elderly Care</p>
+            </div>
+            <div class="jobs">
+              <i class="bx bx-building-house jc_emblem"></i>
 
-          <p>Browse Candidates</p>
+              <p>House Cleaning</p>
+            </div>
+          </div>
+          <div class="job_section_bot_row">
+            <div class="jobs">
+              <i class="bx bxs-dog jc_emblem"></i>
 
-          <p>Add Job</p>
+              <p>Pet Care</p>
+            </div>
+            <div class="jobs">
+              <i class="bx bx-wrench jc_emblem"></i>
 
-          <p>Job Packages</p>
-        </div>
-        <div class="footer_s4">
-          <h3>Helpful Resources</h3>
+              <p>Home Repair</p>
+            </div>
+            <div class="jobs">
+              <i class="bx bxs-shopping-bag jc_emblem"></i>
 
-          <p>Site Map</p>
-
-          <p>Terms of Use</p>
-
-          <p>Privacy Center</p>
-
-          <p>Accessibility Center</p>
+              <p>Errands</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- hero section seven / copyright -->
-    <div class="hero_section_copyright">
-      @2023 All Rights Reserved By
-      <a href=" https://hirerivers.netlify.app/">hireriversanthony</a>
-    </div>
-  </main>
-</body>
+      <!-- hero section three / general info -->
+      <div
+        class="cont hero_section_general_info"
+        style="border: 2px solid blue"
+      ></div>
 
+      <!-- hero section four / testimonials  / https://www.youtube.com/watch?v=8b2mTq0Xrtw -->
+
+      <div class="bg_light_blue">
+        <div class="cont hero_section_testimonials">
+          <div class="testimonials_header">
+            <h4 id="testimonials_header_text" style="font-size: 1.45rem">
+              Testimonials
+            </h4>
+            <p id="testimonials_header_text">
+              What is our client's feedback about us
+            </p>
+          </div>
+
+          <div class="testimonials_box">
+            <div class="testimonials_box_left bg_white">
+              <div class="tb_card">
+                <img
+                  src="assets/__guySmilingIII.jpg"
+                  alt="selfie"
+                  id="tb_card-imgs"
+                />
+                <div class="name_title-box">
+                  <p id="title">Michael Santoro</p>
+                  <p id="job_title">Tutor</p>
+                </div>
+              </div>
+              <div>
+                <p id="job_card_para">
+                  This platform allows me to share my knowledge and help
+                  students excel in their studies. Unity Hub is great for both
+                  tutors and learners to connect and grow academically.
+                </p>
+              </div>
+              <div class="stars_icons">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+
+                4.6
+              </div>
+            </div>
+
+            <div class="testimonials_box_mid bg_white">
+              <div class="tb_card">
+                <img
+                  src="assets/__guySmiling.jpg"
+                  alt="selfie"
+                  id="tb_card-imgs"
+                />
+                <div class="name_title-box">
+                  <p id="title">Emanual Stern</p>
+                  <p id="job_title">Cameraman</p>
+                </div>
+              </div>
+              <div>
+                <p id="job_card_para">
+                  Since Unity Hub began, it has opened up exciting opportunities
+                  for me as a photographer. I've captured cherished moments for
+                  families and events, all while doing what I'm passionate
+                  about.
+                </p>
+              </div>
+              <div class="stars_icons">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+
+                4.5
+              </div>
+            </div>
+
+            <div class="testimonials_box_right bg_white">
+              <div class="tb_card">
+                <img
+                  src="assets/__guySmilingII.jpg"
+                  alt="selfie"
+                  id="tb_card-imgs"
+                />
+                <div class="name_title-box">
+                  <p id="title">Alex Beck</p>
+                  <p id="job_title">Gardener</p>
+                </div>
+              </div>
+              <div>
+                <p id="job_card_para">
+                  Unity Hub has been a game-changer for my gardening business.
+                  I've connected with clients who appreciate my expertise, and I
+                  love helping them create beautiful outdoor spaces.
+                </p>
+              </div>
+              <div class="stars_icons">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+
+                4.9
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- hero section six / app info -->
+      <div class="bg_white">
+        <div class="cont hero_section_app_info">
+          <div class="app_info_left">
+            <img
+              src="assets/__iphone_app_img.png"
+              alt="iphone_img"
+              id="app_info_img"
+            />
+          </div>
+          <div class="app_info_right">
+            <h4 id="air_banner">Download and Enjoy</h4>
+
+            <h1>Millions of Jobs. Find one that suits you.</h1>
+
+            <p>
+              Service seekers typically engage in research and evaluation to
+              find the right service providers. They might look for online
+              reviews, recommendations from peers, or testimonials to ensure the
+              credibility and quality.
+            </p>
+
+            <div class="app_info_info_right_btns"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- hero section seven / footer & site map -->
+      <div class="hero_section_site_map">
+        <div class="cont">
+          <div class="footer_s1">
+            <h2>Unity Hub</h2>
+
+            <p>Call Us</p>
+
+            <p>+1 (973) 508 3720</p>
+
+            <p>jessicafonseca412@gmail.com</p>
+          </div>
+          <div class="footer_s2">
+            <h3>About Us</h3>
+
+            <p>About Us</p>
+
+            <p>Terms Page</p>
+
+            <p>Contact</p>
+          </div>
+          <div class="footer_s3">
+            <h3>For Employers</h3>
+
+            <p>Browse Candidates</p>
+
+            <p>Add Job</p>
+
+            <p>Job Packages</p>
+          </div>
+          <div class="footer_s4">
+            <h3>Helpful Resources</h3>
+
+            <p>Site Map</p>
+
+            <p>Terms of Use</p>
+
+            <p>Privacy Center</p>
+
+            <p>Accessibility Center</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- hero section seven / copyright -->
+      <div class="hero_section_copyright">
+        @2023 All Rights Reserved By
+        <a href=" https://hirerivers.netlify.app/">hireriversanthony</a>
+      </div>
+    </main>
+  </body>
 </html>
