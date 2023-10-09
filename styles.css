@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@400;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
+/* for navbar company name */
 #unique_font {
   font-family: "Dela Gothic One", cursive;
 }
@@ -11,7 +13,6 @@
 body {
   margin: 0;
   font-family: "Libre Franklin", sans-serif;
-  background-color: #fff;
 }
 
 img {
@@ -38,12 +39,13 @@ nav {
 }
 
 #nav_btns:hover {
-  color: orange;
+  border-bottom: solid #295982;
+  cursor: pointer;
 }
 
 /* spacing box */
 .spacing_box {
-  height: 4rem;
+  height: 8.25rem;
 }
 /* styling for the main section of the landing page */
 .hero_section_top {
@@ -66,6 +68,7 @@ nav {
 
 #hero_main_text {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 /* search container with btn */
@@ -78,6 +81,7 @@ nav {
 .search-input {
   padding: 10px;
   border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   width: 200px;
 }
@@ -90,17 +94,27 @@ nav {
   border-radius: 4px;
   cursor: pointer;
   margin-left: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .search-button:hover {
-  background-color: #477977;
+  background-color: #92c0d7;
 }
 
 .popular_searches_sec {
   display: flex;
+  font-size: small;
 
   /* border: 2px solid red; */
   gap: 20px;
+}
+
+.p-s-title {
+  font-weight: 900;
+}
+
+.p-s-btn {
+  font-weight: 900;
 }
 
 .top_right {
@@ -115,62 +129,18 @@ nav {
 }
 
 /* styling for the job categories section */
-.bg_white {
-  background-color: #fff;
+.bg_light_grey {
+  background-color: rgb(236, 236, 236);
 }
 
 .jc_box {
-  padding: 2rem;
-
+  /* padding: 1rem; */
+  
   border: 2px solid red;
 }
 
-.job_section_text_box {
-  text-align: center;
-
-  padding-top: 1.33rem;
-  padding-bottom: 1.8rem;
-
-  line-height: 2.5rem;
-}
-
-.hero_section_jobs {
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: #fff;
-
-  gap: 3rem;
-}
-
-.job_section_top_row {
-  display: flex;
-  justify-content: space-evenly;
-  border: 2px solid purple;
-  gap: 1.5rem;
-  width: 100%;
-}
-.job_section_bot_row {
-  display: flex;
-  justify-content: space-evenly;
-  border: 2px solid purple;
-  gap: 1.5rem;
-  width: 100%;
-}
-.jobs {
-  border: 2px solid green;
-
-  text-align: center;
-  justify-content: center;
-
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-
-  display: flex;
-  flex-direction: column;
+.job_cat_box {
+  
 }
 
 /* styling for the general info section */
@@ -302,7 +272,7 @@ nav {
 }
 /* styling for the footer and site map section */
 .hero_section_site_map {
-  background-color: #c0c0c0;
+  background-color: rgb(236, 236, 236);
   color: black;
   padding: 3.125rem;
 }
