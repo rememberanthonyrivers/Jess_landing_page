@@ -131,16 +131,39 @@ nav {
 /* styling for the job categories section */
 .bg_light_grey {
   background-color: rgb(236, 236, 236);
+  padding-top: 2rem;
+  padding-bottom: 6rem;
 }
 
 .jc_box {
-  /* padding: 1rem; */
-  
-  border: 2px solid red;
+  line-height: 5px;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.job_cat_title {
+  font-size: large;
+  padding-bottom: 1.5rem;
 }
 
 .job_cat_box {
-  
+  display: flex;
+  justify-content: space-around;
+}
+
+.job_cat_boxes:hover {
+  box-shadow: 10px 5px 5px gray;
+  border-radius: 10px;
+}
+
+.job_title {
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+#job_cat_imgs {
+  width: 300px;
+  border-radius: 10px;
 }
 
 /* styling for the general info section */
