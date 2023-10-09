@@ -176,7 +176,16 @@ nav {
 /* styling for the general info section */
 
 header {
-  background-color: #295982;
+  /* background-color: #295982; */
+  background: linear-gradient(
+    -90deg,
+    #295982,
+    green,
+    #477977,
+    #92c0d7,
+    #295982,
+    green
+  );
   color: #fff;
   padding: 20px;
   text-align: center;
