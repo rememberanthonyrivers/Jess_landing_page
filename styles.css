@@ -6,6 +6,10 @@
 }
 
 /* for navbar company name */
+/* for navbar company name */
+/* for navbar company name */
+/* for navbar company name */
+
 #unique_font {
   font-family: "Dela Gothic One", cursive;
   color: #295982;
@@ -49,6 +53,9 @@ nav {
 .spacing_box {
   height: 8.25rem;
 }
+/* styling for the main section of the landing page */
+/* styling for the main section of the landing page */
+/* styling for the main section of the landing page */
 /* styling for the main section of the landing page */
 .hero_section_top {
   display: flex;
@@ -131,6 +138,9 @@ nav {
 }
 
 /* styling for the job categories section */
+/* styling for the job categories section */
+/* styling for the job categories section */
+/* styling for the job categories section */
 .bg_light_grey {
   background-color: rgb(236, 236, 236);
   padding-top: 2rem;
@@ -174,23 +184,20 @@ nav {
 }
 
 /* styling for the general info section */
-
+/* styling for the general info section */
+/* styling for the general info section */
+/* styling for the general info section */
 header {
   /* background-color: #295982; */
-  background: linear-gradient(
-    -90deg,
-    #295982,
-    green,
-    #477977,
-    #92c0d7,
-    #295982,
-    green
-  );
+  background: #295982;
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
+/* styling for the testimonials section */
+/* styling for the testimonials section */
+/* styling for the testimonials section */
 /* styling for the testimonials section */
 .bg_light_blue {
   background-color: #4b8dc6;
@@ -263,6 +270,9 @@ header {
 }
 
 /* styling for the app info section */
+/* styling for the app info section */
+/* styling for the app info section */
+/* styling for the app info section */
 .bg_white {
   background-color: #fff;
 }
@@ -317,6 +327,9 @@ header {
   display: flex;
 }
 /* styling for the footer and site map section */
+/* styling for the footer and site map section */
+/* styling for the footer and site map section */
+/* styling for the footer and site map section */
 .hero_section_site_map {
   background-color: #4b8dc6;
   color: rgb(236, 236, 236);
@@ -340,6 +353,9 @@ header {
   color: white;
 }
 
+/* styling for the copyright section */
+/* styling for the copyright section */
+/* styling for the copyright section */
 /* styling for the copyright section */
 .hero_section_copyright {
   text-align: center;
