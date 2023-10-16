@@ -137,10 +137,10 @@ nav {
   float: right;
 }
 
-/* styling for hero section one.two / popular job categories */
-/* styling for hero section one.two / popular job categories */
-/* styling for hero section one.two / popular job categories */
-/* styling for hero section one.two / popular job categories */
+/* styling for hero job grid section / popular job categories */
+/* styling for hero job grid section / popular job categories */
+/* styling for hero job grid section / popular job categories */
+/* styling for hero job grid section / popular job categories */
 .pop_job_cat_text {
   /* border: 2px solid red; */
   background-color: #295982;
@@ -187,8 +187,15 @@ nav {
   justify-content: center;
   align-items: center;
   padding-top: 1.57rem;
+}
 
-  /* text-decoration: none; */
+.pop_job_cat_card > h5 {
+  color: black;
+  font-weight: 900;
+}
+
+.rounded:hover {
+  background-color: #d7f0e9;
 }
 
 /* hover effect for the job category cards */
@@ -232,11 +239,17 @@ nav {
 .job_cat_title {
   font-size: large;
   padding-bottom: 1.5rem;
+  color: #295982;
 }
 
 .job_cat_box {
   display: flex;
   justify-content: space-around;
+}
+
+.job_cat_boxes > p,
+a {
+  color: black;
 }
 
 .job_cat_boxes:hover {
