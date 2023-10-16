@@ -1,489 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Unity Hub | Home</title>
-  </head>
 
-  <body>
-    <!-- nav section -->
-    <!-- nav section -->
-    <!-- nav section -->
-    <!-- nav section -->
-    <main>
-      <nav class="nav row">
-        <div id="unique_font" style="font-size: 1.25rem">Unity Hub</div>
-        <div style="display: flex; gap: 3rem">
-          <div id="nav_btns"><a>Sign up</a></div>
-          <div id="nav_btns"><a>Log in</a></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Unity Hub | Home</title>
+</head>
+
+<body>
+  <!-- nav section -->
+  <!-- nav section -->
+  <!-- nav section -->
+  <!-- nav section -->
+  <main>
+    <nav class="nav row">
+      <div id="unique_font" style="font-size: 1.25rem">Unity Hub</div>
+      <div style="display: flex; gap: 3rem">
+        <div id="nav_btns"><a>Sign up</a></div>
+        <div id="nav_btns"><a>Log in</a></div>
+      </div>
+    </nav>
+
+    <!-- extra spacing box -->
+    <div class="spacing_box" style="background-color: #92c0d7"></div>
+
+    <!-- main hero section once page loads -->
+    <div style="background-color: #92c0d7">
+      <div class="hero_section_top cont">
+        <div class="top_left">
+          <div id="hero_main_text">
+            Find Trusted Care,<br />Right Next Door
+          </div>
+
+          <p>
+            Discover the power of local care and community support, connecting
+            you with trusted caregivers and services right in your
+            neighborhood
+          </p>
+
+          <div class="search_bar">
+            <div class="search-container">
+              <input type="text" class="search-input" placeholder="I need help with..." />
+              <input type="text" class="search-input" placeholder="Zip Code" />
+              <button class="search-button">Search</button>
+            </div>
+          </div>
+
+          <div class="popular_searches_sec">
+            <div>
+              <p id="p-s-title">Popular Searches :</p>
+            </div>
+            <div>
+              <p id="p-s-btn">Designer</p>
+            </div>
+            <div>
+              <p id="p-s-btn">Developer</p>
+            </div>
+            <div>
+              <p id="p-s-btn">Engineer</p>
+            </div>
+          </div>
         </div>
-      </nav>
-
-      <!-- extra spacing box -->
-      <div class="spacing_box" style="background-color: #92c0d7;"></div>
-
-      <!-- main hero section once page loads -->
-      <div style="background-color: #92c0d7;">
-        <div class="hero_section_top cont">
-          <div class="top_left">
-            <div id="hero_main_text">Find Trusted Care,<br />Right Next Door</div>
-  
-            <p>
-              Discover the power of local care and community support, connecting
-              you with trusted caregivers and services right in your neighborhood
-            </p>
-  
-            <div class="search_bar">
-              <div class="search-container">
-                <input
-                  type="text"
-                  class="search-input"
-                  placeholder="I need help with..."
-                />
-                <input type="text" class="search-input" placeholder="Zip Code" />
-                <button class="search-button">Search</button>
-              </div>
-            </div>
-  
-            <div class="popular_searches_sec">
-              <div>
-                <p id="p-s-title">Popular Searches :</p>
-              </div>
-              <div>
-                <p id="p-s-btn">Designer</p>
-              </div>
-              <div>
-                <p id="p-s-btn">Developer</p>
-              </div>
-              <div>
-                <p id="p-s-btn">Engineer</p>
-              </div>
-            </div>
-          </div>
-          <div class="top_right">
-            <img
-              src="assets/tonethecodeman_a_group_of_diverse_people_smiling_as_a_community_f1cf55c2-f42c-42b9-a5ad-b8737744bd19.png"
-              alt="people in windows"
-              id="hero_img"
-            />
-          </div>
+        <div class="top_right">
+          <img
+            src="assets/tonethecodeman_a_group_of_diverse_people_smiling_as_a_community_f1cf55c2-f42c-42b9-a5ad-b8737744bd19.png"
+            alt="people in windows" id="hero_img" />
         </div>
       </div>
-      
-      <div class="spacing_box" style="background-color: #92c0d7;"></div>
-      <!-- hero section one.two / popular job categories / -->
-      <div class="pop_job_cat">
-        <div class="pop_job_cat_text">
-          <div id="pop_job_cat_title">
-            <h3>Popular Job categories</h3>
-          </div>
-          <div id="pop_job_cat_info_content">
-            <p>2023 Jobs Live - 200 added Today</p>
-          </div>
-        </div>
+    </div>
 
-        <div class="pop_job_cat_panel cont">
-          <div class="pop_job_cat_panel_top_box">
+    <div class="spacing_box" style="background-color: #92c0d7"></div>
+    <!-- hero section one.two / popular job categories / -->
+    <div class="pop_job_cat">
+      <div class="pop_job_cat_text">
+        <div id="pop_job_cat_title">
+          <h3>Popular Job categories</h3>
+        </div>
+        <div id="pop_job_cat_info_content">
+          <p>2023 Jobs Live - 200 added Today</p>
+        </div>
+      </div>
+
+      <div class="pop_job_cat_panel cont">
+        <div class="pop_job_cat_panel_top_box">
+          <a href="" style="text-decoration: none">
             <div class="pop_job_cat_card">
               <div class="rounded">
                 <img src="assets/child.png" alt="child" id="card_img" />
               </div>
               <h5>ChildCare</h5>
             </div>
+          </a>
+          <a href="" style="text-decoration: none">
             <div class="pop_job_cat_card">
               <div class="rounded">
                 <img src="assets/paw.png" alt="paw" id="card_img" />
               </div>
               <h5>PetCare</h5>
             </div>
+          </a>
+          <a href="" style="text-decoration: none">
             <div class="pop_job_cat_card">
               <div class="rounded">
                 <img src="assets/hammer-crash.png" alt="hammer" id="card_img" />
               </div>
               <h5>Home Repair</h5>
             </div>
-          </div>
-          <div class="pop_job_cat_panel_bottom_box">
+          </a>
+        </div>
+        <div class="pop_job_cat_panel_bottom_box">
+          <a href="" style="text-decoration: none">
             <div class="pop_job_cat_card">
               <div class="rounded">
                 <img src="assets/shopping-cart.png" alt="cart" id="card_img" />
               </div>
               <h5>Errands</h5>
             </div>
+          </a>
+          <a href="" style="text-decoration: none">
             <div class="pop_job_cat_card">
               <div class="rounded">
                 <img src="assets/users.png" alt="people_two" id="card_img" />
               </div>
               <h5>Elderly Care</h5>
             </div>
+          </a>
+          <a href="" style="text-decoration: none">
             <div class="pop_job_cat_card">
               <div class="rounded">
                 <img src="assets/spray-can.png" alt="spray" id="card_img" />
               </div>
               <h5>House Cleaning</h5>
             </div>
-          </div>
+          </a>
         </div>
       </div>
+    </div>
 
-      <!-- hero section two / job categories / -->
-      <!-- hero section two / job categories / -->
-      <!-- hero section two / job categories / -->
-      <!-- hero section two / job categories / -->
-      <div class="bg_light_grey">
-        <div class="jc_box cont">
-          <div class="job_cat_title">
-            <h3>Popular services in Union, New Jersey.</h3>
-          </div>
-          <div class="job_cat_box">
-            <a style="text-decoration: none" href="">
-              <div class="job_cat_boxes">
-                <img
-                  id="job_cat_imgs"
-                  src="assets/lawn.jpg"
-                  alt="services_pic_one"
-                />
-                <p class="job_title">Lawn Care and Landscaping</p>
-                <a id="job_cat_link" href="">
-                  <h5>View jobs near you</h5>
-                </a>
-              </div>
-            </a>
-            <a style="text-decoration: none" href="">
-              <div class="job_cat_boxes">
-                <img
-                  id="job_cat_imgs"
-                  src="assets/people.jpg"
-                  alt="services_pic_two"
-                />
-                <p class="job_title">Tutoring</p>
-                <a id="job_cat_link" href="">
-                  <h5>View jobs near you</h5>
-                </a>
-              </div>
-            </a>
-            <a style="text-decoration: none" href="">
-              <div class="job_cat_boxes">
-                <img
-                  id="job_cat_imgs"
-                  src="assets/taxis.jpg"
-                  alt="services_pic_three"
-                />
-                <p class="job_title">Driving Services</p>
-                <a id="job_cat_link" href="">
-                  <h5>View jobs near you</h5>
-                </a>
-              </div>
-            </a>
-          </div>
+    <!-- hero section two / job categories / -->
+    <!-- hero section two / job categories / -->
+    <!-- hero section two / job categories / -->
+    <!-- hero section two / job categories / -->
+    <div class="bg_light_grey">
+      <div class="jc_box cont">
+        <div class="job_cat_title">
+          <h3>Popular services in Union, New Jersey.</h3>
+        </div>
+        <div class="job_cat_box">
+          <a style="text-decoration: none" href="">
+            <div class="job_cat_boxes">
+              <img id="job_cat_imgs" src="assets/lawn.jpg" alt="services_pic_one" />
+              <p class="job_title">Lawn Care and Landscaping</p>
+              <a id="job_cat_link" href="">
+                <h5>View jobs near you</h5>
+              </a>
+            </div>
+          </a>
+          <a style="text-decoration: none" href="">
+            <div class="job_cat_boxes">
+              <img id="job_cat_imgs" src="assets/people.jpg" alt="services_pic_two" />
+              <p class="job_title">Tutoring</p>
+              <a id="job_cat_link" href="">
+                <h5>View jobs near you</h5>
+              </a>
+            </div>
+          </a>
+          <a style="text-decoration: none" href="">
+            <div class="job_cat_boxes">
+              <img id="job_cat_imgs" src="assets/taxis.jpg" alt="services_pic_three" />
+              <p class="job_title">Driving Services</p>
+              <a id="job_cat_link" href="">
+                <h5>View jobs near you</h5>
+              </a>
+            </div>
+          </a>
         </div>
       </div>
-      <!-- hero section three / general info -->
-      <!-- hero section three / general info -->
-      <!-- hero section three / general info -->
-      <!-- hero section three / general info -->
-      <div class="cont hero_section_general_info">
-        <header>
-          <h1>About Us</h1>
-        </header>
+    </div>
+    <!-- hero section three / general info -->
+    <!-- hero section three / general info -->
+    <!-- hero section three / general info -->
+    <!-- hero section three / general info -->
+    <div class="cont hero_section_general_info">
+      <header>
+        <h1>About Us</h1>
+      </header>
 
-        <section>
-          <div class="container">
-            <h2>Our Story</h2>
-            <p style="line-height: 3.5">
-              Welcome to <span style="color: #295982">Unity Hub</span>, your
-              go-to online platform for getting things done. Whether you need
-              help with household chores, handyman tasks, or even virtual
-              assistance, Unity Hub connects you with skilled individuals who
-              are ready to lend a hand. Say goodbye to your to-do list stress
-              and let us help you find trusted, reliable help for all your tasks
-              and projects. Join our community today and experience the
-              convenience of <span style="color: #295982">Unity Hub</span>!
-            </p>
-          </div>
-        </section>
-      </div>
-      <!-- hero section four / testimonials  / -->
-      <!-- hero section four / testimonials  / -->
-      <!-- hero section four / testimonials  / -->
-      <!-- hero section four / testimonials  / -->
-      <div class="bg_light_blue">
-        <div class="cont hero_section_testimonials">
-          <div class="testimonials_header">
-            <h4 id="testimonials_header_text" style="font-size: 1.45rem">
-              Testimonials
-            </h4>
-            <p id="testimonials_header_text">
-              What is our client's feedback about us
-            </p>
-          </div>
+      <section>
+        <div class="container">
+          <h2>Our Story</h2>
+          <p style="line-height: 3.5">
+            Welcome to <span style="color: #295982">Unity Hub</span>, your
+            go-to online platform for getting things done. Whether you need
+            help with household chores, handyman tasks, or even virtual
+            assistance, Unity Hub connects you with skilled individuals who
+            are ready to lend a hand. Say goodbye to your to-do list stress
+            and let us help you find trusted, reliable help for all your tasks
+            and projects. Join our community today and experience the
+            convenience of <span style="color: #295982">Unity Hub</span>!
+          </p>
+        </div>
+      </section>
+    </div>
+    <!-- hero section four / testimonials  / -->
+    <!-- hero section four / testimonials  / -->
+    <!-- hero section four / testimonials  / -->
+    <!-- hero section four / testimonials  / -->
+    <div class="bg_light_blue">
+      <div class="cont hero_section_testimonials">
+        <div class="testimonials_header">
+          <h4 id="testimonials_header_text" style="font-size: 1.45rem">
+            Testimonials
+          </h4>
+          <p id="testimonials_header_text">
+            What is our client's feedback about us
+          </p>
+        </div>
 
-          <div class="testimonials_box">
-            <div class="testimonials_box_left bg_white">
-              <div class="tb_card">
-                <img
-                  src="assets/__guySmilingIII.jpg"
-                  alt="selfie"
-                  id="tb_card-imgs"
-                />
-                <div class="name_title-box">
-                  <p id="title">Michael Santoro</p>
-                  <p id="job_title">Tutor</p>
-                </div>
-              </div>
-              <div>
-                <p id="job_card_para">
-                  This platform allows me to share my knowledge and help
-                  students excel in their studies. Unity Hub is great for both
-                  tutors and learners to connect and grow academically.
-                </p>
-              </div>
-              <div class="stars_icons">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-
-                4.6
+        <div class="testimonials_box">
+          <div class="testimonials_box_left bg_white">
+            <div class="tb_card">
+              <img src="assets/__guySmilingIII.jpg" alt="selfie" id="tb_card-imgs" />
+              <div class="name_title-box">
+                <p id="title">Michael Santoro</p>
+                <p id="job_title">Tutor</p>
               </div>
             </div>
+            <div>
+              <p id="job_card_para">
+                This platform allows me to share my knowledge and help
+                students excel in their studies. Unity Hub is great for both
+                tutors and learners to connect and grow academically.
+              </p>
+            </div>
+            <div class="stars_icons">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
 
-            <div class="testimonials_box_mid bg_white">
-              <div class="tb_card">
-                <img
-                  src="assets/__guySmiling.jpg"
-                  alt="selfie"
-                  id="tb_card-imgs"
-                />
-                <div class="name_title-box">
-                  <p id="title">Emanual Stern</p>
-                  <p id="job_title">Cameraman</p>
-                </div>
-              </div>
-              <div>
-                <p id="job_card_para">
-                  Since Unity Hub began, it has opened up exciting opportunities
-                  for me as a photographer. I've captured cherished moments for
-                  families and events, all while doing what I'm passionate
-                  about.
-                </p>
-              </div>
-              <div class="stars_icons">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+              4.6
+            </div>
+          </div>
 
-                4.5
+          <div class="testimonials_box_mid bg_white">
+            <div class="tb_card">
+              <img src="assets/__guySmiling.jpg" alt="selfie" id="tb_card-imgs" />
+              <div class="name_title-box">
+                <p id="title">Emanual Stern</p>
+                <p id="job_title">Cameraman</p>
               </div>
             </div>
+            <div>
+              <p id="job_card_para">
+                Since Unity Hub began, it has opened up exciting opportunities
+                for me as a photographer. I've captured cherished moments for
+                families and events, all while doing what I'm passionate
+                about.
+              </p>
+            </div>
+            <div class="stars_icons">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
 
-            <div class="testimonials_box_right bg_white">
-              <div class="tb_card">
-                <img
-                  src="assets/__guySmilingII.jpg"
-                  alt="selfie"
-                  id="tb_card-imgs"
-                />
-                <div class="name_title-box">
-                  <p id="title">Alex Beck</p>
-                  <p id="job_title">Gardener</p>
-                </div>
-              </div>
-              <div>
-                <p id="job_card_para">
-                  Unity Hub has been a game-changer for my gardening business.
-                  I've connected with clients who appreciate my expertise, and I
-                  love helping them create beautiful outdoor spaces.
-                </p>
-              </div>
-              <div class="stars_icons">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+              4.5
+            </div>
+          </div>
 
-                4.9
+          <div class="testimonials_box_right bg_white">
+            <div class="tb_card">
+              <img src="assets/__guySmilingII.jpg" alt="selfie" id="tb_card-imgs" />
+              <div class="name_title-box">
+                <p id="title">Alex Beck</p>
+                <p id="job_title">Gardener</p>
               </div>
+            </div>
+            <div>
+              <p id="job_card_para">
+                Unity Hub has been a game-changer for my gardening business.
+                I've connected with clients who appreciate my expertise, and I
+                love helping them create beautiful outdoor spaces.
+              </p>
+            </div>
+            <div class="stars_icons">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+
+              4.9
             </div>
           </div>
         </div>
       </div>
-      <!-- hero section six / app info -->
-      <!-- hero section six / app info -->
-      <!-- hero section six / app info -->
-      <!-- hero section six / app info -->
-      <div class="bg_white">
-        <div class="cont hero_section_app_info">
-          <div class="app_info_left">
-            <img
-              src="assets/__iphone_app_img.png"
-              alt="iphone_img"
-              id="app_info_img"
-            />
-          </div>
-          <div class="app_info_right">
-            <h4 id="air_banner">Download and Enjoy</h4>
+    </div>
+    <!-- hero section six / app info -->
+    <!-- hero section six / app info -->
+    <!-- hero section six / app info -->
+    <!-- hero section six / app info -->
+    <div class="bg_white">
+      <div class="cont hero_section_app_info">
+        <div class="app_info_left">
+          <img src="assets/__iphone_app_img.png" alt="iphone_img" id="app_info_img" />
+        </div>
+        <div class="app_info_right">
+          <h4 id="air_banner">Download and Enjoy</h4>
 
-            <h1>Millions of Jobs. Find one that suits you.</h1>
+          <h1>Millions of Jobs. Find one that suits you.</h1>
 
-            <p>
-              Service seekers typically engage in research and evaluation to
-              find the right service providers. They might look for online
-              reviews, recommendations from peers, or testimonials to ensure the
-              credibility and quality.
-            </p>
+          <p>
+            Service seekers typically engage in research and evaluation to
+            find the right service providers. They might look for online
+            reviews, recommendations from peers, or testimonials to ensure the
+            credibility and quality.
+          </p>
 
-            <div class="app_info_info_right_btns"></div>
-          </div>
+          <div class="app_info_info_right_btns"></div>
         </div>
       </div>
-      <!-- hero section two / job categories section 2 / -->
-      <!-- hero section two / job categories section 2 / -->
-      <!-- hero section two / job categories section 2 / -->
-      <!-- hero section two / job categories section 2 / -->
-      <div class="bg_light_grey">
-        <div class="jc_box cont">
-          <div class="job_cat_title">
-            <h3>Explore more projects.</h3>
-          </div>
-          <div class="job_cat_box">
-            <a style="text-decoration: none" href="">
-              <div class="job_cat_boxes">
-                <img
-                  id="job_cat_imgs"
-                  src="assets/kitchen.jpg"
-                  alt="services_pic_one"
-                />
-                <p class="job_title">Home Services</p>
-                <a href="" id="job_cat_link">
-                  <h5>View jobs near you</h5>
-                </a>
-              </div>
-            </a>
-            <a style="text-decoration: none" href="">
-              <div class="job_cat_boxes">
-                <img
-                  id="job_cat_imgs"
-                  src="assets/man_singing.jpg"
-                  alt="services_pic_two"
-                />
-                <p class="job_title">Singing Lessons</p>
-                <a href="" id="job_cat_link">
-                  <h5>View jobs near you</h5>
-                </a>
-              </div>
-            </a>
-            <a style="text-decoration: none" href="">
-              <div class="job_cat_boxes">
-                <img
-                  id="job_cat_imgs"
-                  src="assets/boxing.jpg"
-                  alt="services_pic_three"
-                />
-                <p class="job_title">Self Defense</p>
-                <a href="" id="job_cat_link">
-                  <h5>View jobs near you</h5>
-                </a>
-              </div>
-            </a>
-          </div>
+    </div>
+    <!-- hero section two / job categories section 2 / -->
+    <!-- hero section two / job categories section 2 / -->
+    <!-- hero section two / job categories section 2 / -->
+    <!-- hero section two / job categories section 2 / -->
+    <div class="bg_light_grey">
+      <div class="jc_box cont">
+        <div class="job_cat_title">
+          <h3>Explore more projects.</h3>
+        </div>
+        <div class="job_cat_box">
+          <a style="text-decoration: none" href="">
+            <div class="job_cat_boxes">
+              <img id="job_cat_imgs" src="assets/kitchen.jpg" alt="services_pic_one" />
+              <p class="job_title">Home Services</p>
+              <a href="" id="job_cat_link">
+                <h5>View jobs near you</h5>
+              </a>
+            </div>
+          </a>
+          <a style="text-decoration: none" href="">
+            <div class="job_cat_boxes">
+              <img id="job_cat_imgs" src="assets/man_singing.jpg" alt="services_pic_two" />
+              <p class="job_title">Singing Lessons</p>
+              <a href="" id="job_cat_link">
+                <h5>View jobs near you</h5>
+              </a>
+            </div>
+          </a>
+          <a style="text-decoration: none" href="">
+            <div class="job_cat_boxes">
+              <img id="job_cat_imgs" src="assets/boxing.jpg" alt="services_pic_three" />
+              <p class="job_title">Self Defense</p>
+              <a href="" id="job_cat_link">
+                <h5>View jobs near you</h5>
+              </a>
+            </div>
+          </a>
         </div>
       </div>
-      <!-- hero section seven / footer & site map -->
-      <!-- hero section seven / footer & site map -->
-      <!-- hero section seven / footer & site map -->
-      <!-- hero section seven / footer & site map -->
-      <div class="hero_section_site_map">
-        <div class="cont">
-          <div class="footer_s1">
-            <h2>Unity Hub</h2>
+    </div>
+    <!-- hero section seven / footer & site map -->
+    <!-- hero section seven / footer & site map -->
+    <!-- hero section seven / footer & site map -->
+    <!-- hero section seven / footer & site map -->
+    <div class="hero_section_site_map">
+      <div class="cont">
+        <div class="footer_s1">
+          <h2>Unity Hub</h2>
 
-            <p>Call Us</p>
+          <p>Call Us</p>
 
-            <p>+1 (973) 508 3720</p>
+          <p>+1 (973) 508 3720</p>
 
-            <p>jessicafonseca412@gmail.com</p>
-          </div>
-          <div class="footer_s2">
-            <h3>About Us</h3>
+          <p>jessicafonseca412@gmail.com</p>
+        </div>
+        <div class="footer_s2">
+          <h3>About Us</h3>
 
-            <a href="#" id="site_map_links">
-              <p>About Us</p>
-            </a>
+          <a href="#" id="site_map_links">
+            <p>About Us</p>
+          </a>
 
-            <a href="" id="site_map_links">
-              <p>Terms Page</p>
-            </a>
+          <a href="" id="site_map_links">
+            <p>Terms Page</p>
+          </a>
 
-            <a href="" id="site_map_links">
-              <p>Contact</p>
-            </a>
-          </div>
-          <div class="footer_s3">
-            <h3>For Employers</h3>
+          <a href="" id="site_map_links">
+            <p>Contact</p>
+          </a>
+        </div>
+        <div class="footer_s3">
+          <h3>For Employers</h3>
 
-            <a href="" id="site_map_links">
-              <p>Browse Candidates</p>
-            </a>
+          <a href="" id="site_map_links">
+            <p>Browse Candidates</p>
+          </a>
 
-            <a href="" id="site_map_links">
-              <p>Add Job</p>
-            </a>
+          <a href="" id="site_map_links">
+            <p>Add Job</p>
+          </a>
 
-            <a href="" id="site_map_links">
-              <p>Job Packages</p>
-            </a>
-          </div>
-          <div class="footer_s4">
-            <h3>Helpful Resources</h3>
+          <a href="" id="site_map_links">
+            <p>Job Packages</p>
+          </a>
+        </div>
+        <div class="footer_s4">
+          <h3>Helpful Resources</h3>
 
-            <a href="" id="site_map_links">
-              <p>Site Map</p>
-            </a>
+          <a href="" id="site_map_links">
+            <p>Site Map</p>
+          </a>
 
-            <a href="" id="site_map_links">
-              <p>Terms of Use</p>
-            </a>
+          <a href="" id="site_map_links">
+            <p>Terms of Use</p>
+          </a>
 
-            <a href="" id="site_map_links">
-              <p>Privacy Center</p>
-            </a>
+          <a href="" id="site_map_links">
+            <p>Privacy Center</p>
+          </a>
 
-            <a href="" id="site_map_links">
-              <p>Accessibility Center</p>
-            </a>
-          </div>
+          <a href="" id="site_map_links">
+            <p>Accessibility Center</p>
+          </a>
         </div>
       </div>
+    </div>
 
-      <!-- hero section seven / copyright -->
-      <!-- hero section seven / copyright -->
-      <!-- hero section seven / copyright -->
-      <!-- hero section seven / copyright -->
-      <div class="hero_section_copyright">
-        @2023 All Rights Reserved By
-        <a href=" https://hirerivers.netlify.app/">hireriversanthony</a>
-      </div>
-    </main>
-  </body>
+    <!-- hero section seven / copyright -->
+    <!-- hero section seven / copyright -->
+    <!-- hero section seven / copyright -->
+    <!-- hero section seven / copyright -->
+    <div class="hero_section_copyright">
+      @2023 All Rights Reserved By
+      <a href=" https://hirerivers.netlify.app/">hireriversanthony</a>
+    </div>
+  </main>
+</body>
+
 </html>

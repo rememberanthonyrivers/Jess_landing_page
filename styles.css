@@ -178,6 +178,7 @@ nav {
 
 .pop_job_cat_card {
   border: 1px solid rgb(236, 236, 236);
+  border-radius: 10px;
 
   height: 180px;
   width: 180px;
@@ -186,6 +187,15 @@ nav {
   justify-content: center;
   align-items: center;
   padding-top: 1.57rem;
+
+  /* text-decoration: none; */
+}
+
+/* hover effect for the job category cards */
+.pop_job_cat_card:hover {
+  box-shadow: 10px 5px 5px gray;
+  border-radius: 10px;
+  opacity: 0.9;
 }
 
 .rounded {
