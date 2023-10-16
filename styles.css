@@ -132,7 +132,7 @@ nav {
 }
 
 #hero_img {
-  border-radius: 15px 80px 15px 80px;
+  border-radius: 50% 20% / 10% 40%;
   max-width: 80%;
   float: right;
 }
@@ -265,7 +265,8 @@ a {
 
 #job_cat_imgs {
   width: 300px;
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 #job_cat_link:link {
