@@ -60,7 +60,7 @@ nav {
 .hero_section_top {
   display: flex;
 
-  background-color: #fff;
+  background-color: #92c0d7;
   /* border: 2px solid red; */
 }
 
@@ -166,14 +166,14 @@ nav {
   /* border: 2px solid green; */
   display: flex;
 
-  justify-content: space-evenly;
+  justify-content: space-around;
 
   padding-bottom: 3rem;
 }
 .pop_job_cat_panel_bottom_box {
   display: flex;
 
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .pop_job_cat_card {
@@ -185,18 +185,22 @@ nav {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-top: 4rem;
+  padding-top: 1.57rem;
 }
 
 .rounded {
-  width: 30px;
-  height: 30px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
-  background-color: #4b8dc6;
-
-  /* display: block; */
+  background-color: #92c0d7;
+  /* border: 2px solid #4b8dc6; */
   margin-left: auto;
   margin-right: auto;
+}
+
+#card_img {
+  width: 30px;
+  padding-top: 1.57rem;
 }
 
 /* styling for the job categories section */
