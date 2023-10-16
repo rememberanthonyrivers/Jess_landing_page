@@ -137,25 +137,67 @@ nav {
   float: right;
 }
 
-
 /* styling for hero section one.two / popular job categories */
 /* styling for hero section one.two / popular job categories */
 /* styling for hero section one.two / popular job categories */
 /* styling for hero section one.two / popular job categories */
 .pop_job_cat_text {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: rgb(236, 236, 236);
+
   text-align: center;
   padding: 2rem;
 }
 
+#pop_job_cat_title {
+  font-weight: bolder;
+}
 
+#pop_job_cat_info_content {
+  font-weight: 100;
+}
 
+.pop_job_cat_panel {
+  /* border: 2px solid red; */
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.pop_job_cat_panel_top_box {
+  /* border: 2px solid green; */
+  display: flex;
 
+  justify-content: space-evenly;
 
+  padding-bottom: 3rem;
+}
+.pop_job_cat_panel_bottom_box {
+  display: flex;
 
+  justify-content: space-evenly;
+}
 
+.pop_job_cat_card {
+  border: 1px solid rgb(236, 236, 236);
 
+  height: 180px;
+  width: 180px;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.rounded {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #4b8dc6;
+
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* styling for the job categories section */
 /* styling for the job categories section */
