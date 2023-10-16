@@ -143,8 +143,8 @@ nav {
 /* styling for hero section one.two / popular job categories */
 .pop_job_cat_text {
   /* border: 2px solid red; */
-  background-color: rgb(236, 236, 236);
-
+  background-color: #295982;
+  color: #fff;
   text-align: center;
   padding: 2rem;
 }
