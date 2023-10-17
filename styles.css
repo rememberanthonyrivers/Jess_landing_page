@@ -359,6 +359,11 @@ header {
 
   padding-left: 0.4rem;
 }
+/* styling for the stats section */
+.stats_section_container {
+}
+.stats_card {
+}
 
 /* styling for the app info section */
 /* styling for the app info section */
@@ -417,13 +422,6 @@ header {
 .app_info_info_right_btns {
   display: flex;
 }
-/* styling for the stats section */
-.stats_section_container {
-
-}
-.stats_card{
-
-}
 /* styling for app info part two */
 /* styling for app info part two */
 /* styling for app info part two */
@@ -477,14 +475,21 @@ header {
 /* styling for the copyright section */
 /* styling for the copyright section */
 .hero_section_copyright {
-  text-align: center;
-  padding: 1.5rem;
+  text-align: end;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   color: #fff;
   background-color: black;
   text-decoration: none;
+
+  font-size: 12px;
 }
 
 .hero_section_copyright > a {
   color: orange;
   text-decoration: none;
+}
+
+.hero_section_copyright > a:hover {
+  color: #4b8dc6;
 }
