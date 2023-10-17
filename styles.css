@@ -78,6 +78,7 @@ nav {
 #hero_main_text {
   font-size: 2.5rem;
   font-weight: bold;
+  color: #295982;
 }
 
 /* search container with btn */
@@ -416,6 +417,34 @@ header {
 .app_info_info_right_btns {
   display: flex;
 }
+/* styling for the stats section */
+.stats_section_container {
+
+}
+.stats_card{
+
+}
+/* styling for app info part two */
+/* styling for app info part two */
+/* styling for app info part two */
+/* styling for app info part two */
+.app_info_section_part_two {
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.left_section {
+  padding-top: 4rem;
+  width: 50%;
+}
+.right_section {
+  width: 50%;
+}
+
+#globe_img {
+  border-radius: 100%;
+}
+
 /* styling for the footer and site map section */
 /* styling for the footer and site map section */
 /* styling for the footer and site map section */
