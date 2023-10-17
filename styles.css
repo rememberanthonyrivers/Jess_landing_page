@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@400;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Poppins:wght@600&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -76,6 +76,7 @@ nav {
 }
 
 #hero_main_text {
+  font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: #295982;
@@ -238,6 +239,7 @@ nav {
 }
 
 .job_cat_title {
+  font-family: 'Poppins', sans-serif;
   font-size: large;
   padding-bottom: 1.5rem;
   color: #295982;
@@ -359,10 +361,31 @@ header {
 
   padding-left: 0.4rem;
 }
+
+/* styling for the stats section */
+/* styling for the stats section */
+/* styling for the stats section */
 /* styling for the stats section */
 .stats_section_container {
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  justify-content: space-between;
+
+  text-align: center;
 }
 .stats_card {
+  padding: 5.5rem;
+  line-height: 2;
+
+  width: 300px;
+}
+
+#bold_num {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+#small_font_size {
+  font-size: small;
 }
 
 /* styling for the app info section */
