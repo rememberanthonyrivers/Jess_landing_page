@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@400;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Poppins:wght@600&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
+/* for navbar company name */
 /* for navbar company name */
 /* for navbar company name */
 /* for navbar company name */
@@ -80,6 +82,24 @@ nav {
   font-size: 2.5rem;
   font-weight: bold;
   color: #295982;
+}
+
+.btn_box {
+  /* border: 2px solid yellow; */
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1em;
+}
+
+.btn_box_btns {
+  text-decoration: none;
+  color: #295982;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn_box_btns:hover {
+  text-decoration: underline;
 }
 
 /* search container with btn */
