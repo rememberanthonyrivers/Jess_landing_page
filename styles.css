@@ -24,7 +24,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .cont {
@@ -97,7 +97,7 @@ nav {
   text-decoration: none;
   color: #295982;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   /* font-weight: bold; */
 }
 
@@ -288,12 +288,17 @@ a {
 .job_title {
   font-weight: lighter;
   font-size: 17px;
+  padding-left: 5px;
 }
 
 #job_cat_imgs {
   width: 300px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+#job_cat_link > h5 {
+  padding-left: 10px;
 }
 
 #job_cat_link:link {
