@@ -82,6 +82,8 @@ nav {
   font-size: 2.5rem;
   font-weight: bold;
   color: #295982;
+
+  line-height: 1.5em;
 }
 
 .btn_box {
@@ -95,7 +97,8 @@ nav {
   text-decoration: none;
   color: #295982;
   text-transform: uppercase;
-  font-weight: bold;
+  letter-spacing: .2rem;
+  /* font-weight: bold; */
 }
 
 .btn_box_btns:hover {
@@ -136,6 +139,7 @@ nav {
   display: flex;
   font-size: small;
 
+  text-transform: uppercase;
   /* border: 2px solid red; */
   gap: 20px;
 }
