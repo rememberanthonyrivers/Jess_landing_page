@@ -14,7 +14,7 @@
 
 #unique_font {
   font-family: "Dela Gothic One", cursive;
-  color: #295982;
+  color: #1e7d3c;
 }
 
 body {
@@ -43,11 +43,15 @@ nav {
   border-bottom: 1px solid lightgrey;
   padding: 1.5rem;
 
-  background-color: #fff;
+  background-color: #eaffd6;
+}
+
+#nav_btns > a{
+  color: #1e7d3c;
 }
 
 #nav_btns:hover {
-  border-bottom: solid #295982;
+  border-bottom: solid #7c7c7c;
   cursor: pointer;
 }
 
@@ -62,7 +66,7 @@ nav {
 .hero_section_top {
   display: flex;
 
-  background-color: #92c0d7;
+  background-color: #fff;
   /* border: 2px solid red; */
 }
 
@@ -81,7 +85,7 @@ nav {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #295982;
+  color: #1e7d3c;
 
   line-height: 1.5em;
 }
@@ -95,7 +99,7 @@ nav {
 
 .btn_box_btns {
   text-decoration: none;
-  color: #295982;
+  color: #1e7d3c;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   /* font-weight: bold; */
@@ -117,12 +121,12 @@ nav {
   border: 1px solid #ccc;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  width: 200px;
+  width: 325px;
 }
 
 .search-button {
   padding: 10px 20px;
-  background-color: #295982;
+  background-color: #1e7d3c;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -132,7 +136,7 @@ nav {
 }
 
 .search-button:hover {
-  background-color: #92c0d7;
+  background-color: #c3e015;
 }
 
 .popular_searches_sec {
@@ -148,8 +152,18 @@ nav {
   font-weight: 900;
 }
 
-.p-s-btn {
-  font-weight: 900;
+#p-s-btn {
+  text-decoration: none;
+}
+
+
+.clickable_suggest {
+  text-decoration: none;
+}
+
+.clickable_suggest:hover{
+  text-decoration: underline;
+  color: #1e7d3c;
 }
 
 .top_right {
