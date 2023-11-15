@@ -162,7 +162,7 @@ nav {
 }
 
 .clickable_suggest:hover{
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: #1e7d3c;
 }
 
