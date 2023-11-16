@@ -46,7 +46,7 @@ nav {
   background-color: #eaffd6;
 }
 
-#nav_btns > a{
+#nav_btns > a {
   color: #1e7d3c;
 }
 
@@ -156,12 +156,11 @@ nav {
   text-decoration: none;
 }
 
-
 .clickable_suggest {
   text-decoration: none;
 }
 
-.clickable_suggest:hover{
+.clickable_suggest:hover {
   /* text-decoration: underline; */
   color: #1e7d3c;
 }
@@ -183,8 +182,8 @@ nav {
 /* styling for hero job grid section / popular job categories */
 .pop_job_cat_text {
   /* border: 2px solid red; */
-  background-color: #295982;
-  color: #fff;
+  background-color: #1e7d3c; 
+  color: #eaffd6; 
   text-align: center;
   padding: 2rem;
 }
@@ -202,18 +201,15 @@ nav {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
-.pop_job_cat_panel_top_box {
+.pop_job_cat_panel_box {
   /* border: 2px solid green; */
   display: flex;
 
   justify-content: space-around;
 
-  padding-bottom: 3rem;
-}
-.pop_job_cat_panel_bottom_box {
-  display: flex;
+  padding-bottom: 1.7rem;
 
-  justify-content: space-around;
+  gap: 4px;
 }
 
 .pop_job_cat_card {
@@ -234,8 +230,12 @@ nav {
   font-weight: 900;
 }
 
+.pop_job_cat_card:hover {
+  border: 1px solid #c3e015;
+}
+
 .rounded:hover {
-  background-color: #d7f0e9;
+  background-color: #c3e015;
 }
 
 /* hover effect for the job category cards */
@@ -243,13 +243,14 @@ nav {
   box-shadow: 10px 5px 5px gray;
   border-radius: 10px;
   opacity: 0.9;
+  border: 1px solid #1e7d3c;
 }
 
 .rounded {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background-color: #92c0d7;
+  background-color: #eaffd6;
   /* border: 2px solid #4b8dc6; */
   margin-left: auto;
   margin-right: auto;
@@ -265,7 +266,7 @@ nav {
 /* styling for the job categories section */
 /* styling for the job categories section */
 .bg_light_grey {
-  background-color: rgb(236, 236, 236);
+  background-color: #eaffd6;
   padding-top: 2rem;
   padding-bottom: 6rem;
 }
@@ -280,7 +281,7 @@ nav {
   font-family: "Poppins", sans-serif;
   font-size: large;
   padding-bottom: 1.5rem;
-  color: #295982;
+  color: #1e7d3c;
 }
 
 .job_cat_box {
@@ -297,6 +298,7 @@ a {
   box-shadow: 10px 5px 5px gray;
   border-radius: 10px;
   opacity: 0.9;
+  /* border: 3px solid #1e7d3c; */
 }
 
 .job_title {
