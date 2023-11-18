@@ -59,7 +59,7 @@ nav {
 .spacing_box {
   height: 8.25rem;
 }
-/* styling for the main section of the landing page */
+/* main section of the landing page */
 /* styling for the main section of the landing page */
 /* styling for the main section of the landing page */
 /* styling for the main section of the landing page */
@@ -126,8 +126,8 @@ nav {
 
 .search-button {
   padding: 10px 20px;
-  background-color: #1e7d3c;
-  color: #fff;
+  background-color: #fff;
+  color: black;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -136,7 +136,8 @@ nav {
 }
 
 .search-button:hover {
-  background-color: #c3e015;
+  color: #fff;
+  background-color: #1e7d3c;
 }
 
 .popular_searches_sec {
@@ -182,8 +183,8 @@ nav {
 /* styling for hero job grid section / popular job categories */
 .pop_job_cat_text {
   /* border: 2px solid red; */
-  background-color: #1e7d3c; 
-  color: #eaffd6; 
+  background-color: #1e7d3c;
+  color: #eaffd6;
   text-align: center;
   padding: 2rem;
 }
@@ -295,7 +296,7 @@ a {
 }
 
 .job_cat_boxes:hover {
-  box-shadow: 10px 5px 5px gray;
+  box-shadow: 10px 5px 5px #c3e015;
   border-radius: 10px;
   opacity: 0.9;
   /* border: 3px solid #1e7d3c; */
@@ -327,18 +328,22 @@ a {
 /* styling for the general info section */
 header {
   /* background-color: #295982; */
-  background: #295982;
-  color: #fff;
+  background: #1e7d3c;
+  color: #c3e015;
   padding: 20px;
   text-align: center;
+}
+
+#about_us_title {
+  color: #1e7d3c;
 }
 
 /* styling for the testimonials section */
 /* styling for the testimonials section */
 /* styling for the testimonials section */
 /* styling for the testimonials section */
-.bg_light_blue {
-  background-color: #4b8dc6;
+.bg_light_green {
+  background-color: #eaffd6;
 }
 
 .hero_section_testimonials {
@@ -352,7 +357,7 @@ header {
 }
 
 #testimonials_header_text {
-  color: #fff;
+  color: #1e7d3c;
 }
 
 .testimonials_box {
@@ -412,7 +417,7 @@ header {
 /* styling for the stats section */
 /* styling for the stats section */
 .stats_section_container {
-  background-color: rgb(236, 236, 236);
+  background-color: #c3e015;
   display: flex;
   justify-content: space-between;
 
@@ -427,10 +432,12 @@ header {
 
 #bold_num {
   font-size: 2.5rem;
+  color: #1e7d3c;
   font-family: "Poppins", sans-serif;
 }
 #small_font_size {
   font-size: small;
+  color: #7c7c7c;
 }
 
 /* styling for the app info section */
@@ -469,7 +476,7 @@ header {
 }
 
 #air_banner {
-  color: #295982;
+  color: #1e7d3c;
 }
 
 .app_info_right > h1 {
@@ -477,7 +484,7 @@ header {
 }
 
 .app_info_right > p {
-  color: #295982;
+  color: #1e7d3c;
   text-align: start;
   line-height: 1.85rem;
 }
@@ -503,6 +510,14 @@ header {
   padding-top: 4rem;
   width: 50%;
 }
+
+.left_section > p {
+  line-height: 3rem;
+  font-size: larger;
+  color: #1e7d3c;
+  font-family: "Poppins", sans-serif;
+}
+
 .right_section {
   width: 50%;
 }
@@ -516,8 +531,8 @@ header {
 /* styling for the footer and site map section */
 /* styling for the footer and site map section */
 .hero_section_site_map {
-  background-color: #4b8dc6;
-  color: rgb(236, 236, 236);
+  background-color: #1e7d3c;
+  color: #c3e015;
   padding: 3.125rem;
 }
 
